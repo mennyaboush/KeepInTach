@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gainsboro"
+    android:padding="5dp" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="Register User"
+            android:textColor="@color/azure"
+            android:textSize="30px"></TextView>
+
+        <TextView
+            android:id="@+id/textPhone"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:textColor="@color/azure"
+            android:textSize="30px"></TextView>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="31dp"
+            android:layout_height="51dp"
+            android:checked="false"
+            android:duplicateParentState="false"
+            android:text="CheckBox"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

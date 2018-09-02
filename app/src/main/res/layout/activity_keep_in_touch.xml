@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.hannybuns.firebaseproject2.activity.KeepInTouchActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/emailUser"
+            android:layout_width="153dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/azure"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+
+        <Button
+            android:id="@+id/makeContectList"
+            android:layout_width="226dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="Make Contact List"
+            android:background="@drawable/button_shape"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="226dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="Logout"
+            android:background="@drawable/button_shape"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="226dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="Nearby friends"
+            android:background="@drawable/button_shape"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/fragmentKeepInTouch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
